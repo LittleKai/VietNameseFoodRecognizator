@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/home_select"
+        android:title="HOME"
+        android:icon="@drawable/icon_home"
+        />
+    <item
+        android:id="@+id/my_select"
+        android:icon="@drawable/icon_book"
+        android:title="MY"
+        />
+    <!--android:icon="@drawable/ic_sort_alphabetical_grey600_36dp"-->
+
+    <item
+        android:id="@+id/camera_select"
+        android:icon="@drawable/ic_main_settings"
+        android:title="CAMERA"/>
+    <item
+        android:id="@+id/meal_select"
+        android:icon="@drawable/ic_action_clear"
+        android:title="MEAL"/>
+    <item
+        android:id="@+id/more_select"
+        android:icon="@drawable/ic_main_settings"
+        android:title="MORE"/>
+
+</menu>

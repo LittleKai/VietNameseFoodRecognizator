@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodRecognizeActivity">
+    <TextView
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_timeCost"
+        android:textSize="14sp"
+        />
+    <ImageView
+        android:layout_margin="6dp"
+        android:id="@+id/iv_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+<!--    <LinearLayout-->
+<!--        android:id="@+id/fl_contain"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:orientation="vertical"-->
+<!--        android:touchscreenBlocksFocus="false"-->
+<!--        android:background="@color/transparent">-->
+<!--<View-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="200dp"-->
+<!--    android:focusableInTouchMode="false"-->
+<!--    android:background="#20000000"-->
+<!--    />-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_recognizeFood"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_gravity="bottom"
+            android:isScrollContainer="false">
+
+        </androidx.recyclerview.widget.RecyclerView>
+<!--    </LinearLayout>-->
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="preferences"
+        android:title="\nSetting"
+        >
+        <EditTextPreference
+            android:defaultValue="6"
+            android:dialogMessage="Set max results will be shown after dish classification. (Defualt: 6)"
+            android:dialogTitle="Number of Results"
+            android:inputType="number"
+            android:key="max_result"
+            android:negativeButtonText="Cancel"
+            android:positiveButtonText="Save"
+            android:summary="Change number of recognizing results which will be listed. Max results: 20."
+            android:title="Max Results" />
+        <ListPreference
+            android:defaultValue="360"
+            android:dependency="rolation"
+            android:entries="@array/pref_rolation_titles"
+            android:entryValues="@array/pref_rolation"
+            android:key="rolation"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Image Rotation" />
+<!--        android:dependency="model"-->
+
+        <ListPreference
+            android:defaultValue="model.tflite"
+            android:entries="@array/list_model_entries"
+            android:entryValues="@array/list_model_values"
+            android:key="model"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Model" />
+<!--        android:dependency="thread"-->
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_thread"
+            android:entryValues="@array/pref_thread"
+            android:key="thread"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Threads of CPU" />
+<!--        android:dependency="crop_image"-->
+
+        <ListPreference
+            android:defaultValue="400"
+            android:entries="@array/pref_crop_image_titles"
+            android:entryValues="@array/pref_crop_image"
+            android:key="crop_size"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Crop Input Image" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="test_input"
+            android:title="Test Input" />
+    </PreferenceCategory>
+</PreferenceScreen>
