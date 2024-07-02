@@ -1,6 +1,6 @@
 # VietNameseFoodRecognizator
 
-Mobile application for classifying and recognizing 20 Vietnamese dishes. Utilizing the model architecture built from EfficientNet-B0, we experiment with improving classification accuracy.
+Mobile application for classifying and recognizing 20 Vietnamese dishes. Utilizing the model architecture built from EfficientNet-B0, I experiment with improving classification accuracy.
 
 
 
