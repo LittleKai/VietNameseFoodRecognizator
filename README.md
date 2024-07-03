@@ -41,6 +41,6 @@ The comparison of the accuracy and loss of the two models is presented in the fo
 
 ![Introduction](DEMO/INTRODUCETION.png)
 
-![Nutrition Info](DEMO/Nutrition.png)
+![Nutrition Info](DEMO/NUTRITION.jpg)
 
 ![Nutrition Info 2](DEMO/NUTRITION2.png)
